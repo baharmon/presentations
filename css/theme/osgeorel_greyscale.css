@@ -272,13 +272,13 @@ body {
 .reveal h1 {
   font-size: 2em;
   font-weight: 700;
-  color: #3d3d3d;
+  color: #000;
   text-shadow: none; }
 
 .reveal h2 {
   font-size: 1.5em;
   font-weight: 600;
-  color: #3d3d3d; }
+  color: #000; }
 
 .reveal h3 {
   font-size: 1.3em;
@@ -342,7 +342,7 @@ h3.shadow {
 
 .reveal li {
   padding: .3em 0.8em; }
-    
+
 .reveal ol {
   list-style-type: decimal; }
 
