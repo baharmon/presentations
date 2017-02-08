@@ -1,15 +1,9 @@
 Narrative for doctoral defense
 ============================================
 
-Title
+Doctoral defense
 --------
-
-...
-
-About me
-----------
-
-...
+Hello and welcome to my doctoral defense. I am Brendan, a PhD in Design candidate with a co-major in Forestry and Environmental Resources. As part of the NCSU GeoForAll Lab, here in the Center for Geospatial Analytics, I have been collaboratively designing Tangible Landscape with my colleagues - Anna, Vaclav, Helena, and now Payam. Tangible Landscape is a way to intuitively think about geographic space - to model, analyze, design, and study space.
 
 Spatial thinking
 ----------
