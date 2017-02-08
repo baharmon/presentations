@@ -31,6 +31,8 @@ Human-computer interaction
 
 Unintuitive interactions with GIS can frustrate users, constrain how they think about space, and add new cognitive burdens that require highly developed spatial skills and reasoning to overcome. The paradigmatic modes for interacting with GIS today – command line interfaces (CLI) and graphical user interfaces (GUI) – require physical input into devices like keyboards, mice, digitizing pens, and touch screens, but output data visually as text or graphics. Theoretically this disconnect between intention, action, and feedback makes graphical interaction unintuitive [Dourish 2001; Ishii 2008]. Since users can only think about space visually with GUIs, they need sophisticated spatial abilities like mental rotation [Shepard and Metzler 1971; Just and Carpenter 1985] to parse and understand, much less manipulate 3D space.
 
+Props: Oculus Rift HMD
+
 ...
 ----------
 
