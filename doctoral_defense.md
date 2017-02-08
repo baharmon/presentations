@@ -33,6 +33,14 @@ Props: Oculus Rift HMD
 ...
 
 
+
+
+
+<!--
+In embodied cognition higher cognitive processes are grounded in, built upon, and mediated by bodily experiences such as kinaesthetic perception and action [Hardy-Vallee and Payette 2008]. Tangible interfaces – interfaces that couple physical and digital data [Dourish 2001] – are designed to enable embodied interaction by physically manifesting digital data so that users can cognitively grasp and absorb it, thinking with it rather than about it [Kirsh 2013]. Embodied interaction should be highly intuitive – drawing on existing motor schemas and seamlessly connecting intention, action, and feedback. It should reduce users’ cognitive load by enabling them to physically simulate processes and offload tasks like spatial perception and manipulation onto the body [Kirsh 2013]. Distance and physical properties like size, shape, volume, weight, hardness, and texture can be automatically and subconsciously assessed with the body [Jeannerod 1997]. Tangible interfaces should, therefore, enable users to subconsciously, kinaesethically judge and manipulate spatial distances, relationships, patterns, 3D forms, and volumes offloading these challenging cognitive tasks onto their bodies.
+-->
+
+
 History
 -------
 
