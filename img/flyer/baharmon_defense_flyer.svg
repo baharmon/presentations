@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="baharmon_defense_flyer.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.53955448"
+     inkscape:cx="280.30489"
+     inkscape:cy="526.1811"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     objecttolerance="20"
+     inkscape:snap-tangential="true"
+     inkscape:snap-perpendicular="true"
+     borderlayer="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1636"
+     inkscape:window-height="1005"
+     inkscape:window-x="44"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="0,948.57145"
+       orientation="1,0"
+       id="guide4140" />
+    <sodipodi:guide
+       position="743.26333,1052.3567"
+       orientation="0,1"
+       id="guide4142" />
+    <sodipodi:guide
+       position="744.05576,1050.6891"
+       orientation="1,0"
+       id="guide4144" />
+    <sodipodi:guide
+       position="314.28572,0"
+       orientation="0,1"
+       id="guide4146" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#666666;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4151"
+       width="744.05573"
+       height="1052.3567"
+       x="0"
+       y="0.0055268072" />
+    <image
+       sodipodi:absref="/Users/Brendan/presentations/img/flyer/tangible_landscape.jpg"
+       xlink:href="tangible_landscape.jpg"
+       width="744.05573"
+       height="424.11176"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       id="image4357"
+       x="0"
+       y="0.0055268072" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4376"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:125%;font-family:Lato;-inkscape-font-specification:'Lato, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.8,0,0,0.8,75.215213,0.6844717)"><flowRegion
+         id="flowRegion4378"><rect
+           id="rect4380"
+           width="744.05573"
+           height="107.49609"
+           x="0"
+           y="479.66748"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:125%;font-family:Lato;-inkscape-font-specification:'Lato, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff" /></flowRegion><flowPara
+         id="flowPara4594">TANGIBLE <flowSpan
+   style="fill:#999999"
+   id="flowSpan4604">LANDSCAPE</flowSpan></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4376-1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.125px;line-height:125%;font-family:Lato;-inkscape-font-specification:'Lato, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       transform="matrix(0.8,0,0,0.8,67.430389,79.939993)"><flowRegion
+         id="flowRegion4378-1"><rect
+           id="rect4380-5"
+           width="760.27283"
+           height="239.54948"
+           x="0"
+           y="479.66748"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.125px;line-height:125%;font-family:Lato;-inkscape-font-specification:'Lato, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cccccc;" /></flowRegion><flowPara
+         id="flowPara4582"
+         style="fill:#f9f9f9">Brendan Harmon</flowPara><flowPara
+         id="flowPara4584" /><flowPara
+         id="flowPara4586"
+         style="fill:#e6e6e6">Doctoral Defense</flowPara><flowPara
+         id="flowPara4588"
+         style="fill:#b3b3b3">Jordan 5119</flowPara><flowPara
+         id="flowPara4590"
+         style="fill:#b3b3b3">9-10 am</flowPara><flowPara
+         id="flowPara4592"
+         style="fill:#b3b3b3">02.16.2017</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4596"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Lato;font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Lato, Normal';font-stretch:normal;font-variant:normal;text-anchor:middle;text-align:center;writing-mode:lr"><flowRegion
+         id="flowRegion4598"><rect
+           id="rect4600"
+           width="1.8533809"
+           height="20.38719"
+           x="641.26984"
+           y="368.46463" /></flowRegion><flowPara
+         id="flowPara4602"></flowPara></flowRoot>    <image
+       sodipodi:absref="/Users/Brendan/presentations/img/flyer/tl_system_logo_inverse_2.png"
+       xlink:href="tl_system_logo_inverse_2.png"
+       width="238.34035"
+       height="384.30746"
+       preserveAspectRatio="none"
+       id="image4708"
+       x="252.87708"
+       y="668.05475" />
+  </g>
+</svg>

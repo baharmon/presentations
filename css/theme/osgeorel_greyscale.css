@@ -409,6 +409,7 @@ h3.shadow {
   color: #DCDCDC; }
 
 .reveal table {
+  font-size: 0.8em;
   margin: auto;
   border-collapse: collapse;
   border-spacing: 0; }
@@ -427,7 +428,13 @@ h3.shadow {
 .reveal table tr:last-child td {
   border-bottom: 2px solid; }
 
-.reveal sup {
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1em;
+  vertical-align: top; }
+
+.reveal table th {
   vertical-align: super; }
 
 .reveal sub {
