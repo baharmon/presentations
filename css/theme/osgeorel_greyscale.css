@@ -324,6 +324,10 @@ h3.shadow {
   margin: 0.5em 0;
   line-height: 1.2em; }
 
+p.shadow {
+  color: #000;
+  text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white; }}
+
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img, .reveal video, .reveal iframe {
   max-width: 95%;
@@ -358,6 +362,10 @@ h3.shadow {
 .reveal ul ul, .reveal ul ol, .reveal ol ol, .reveal ol ul {
   display: block;
   margin-left: 40px; }
+
+ol.shadow, ul.shadow {
+  color: #000;
+  text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white; }}
 
 .reveal dt {
   font-weight: bold; }
