@@ -363,6 +363,10 @@ p.shadow {
   display: block;
   margin-left: 40px; }
 
+ol.shadow, ul.shadow {
+  color: #000;
+  text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white; }}
+
 .reveal dt {
   font-weight: bold; }
 
