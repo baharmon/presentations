@@ -8,7 +8,7 @@ Hello and welcome to my doctoral defense. I am Brendan, a PhD in Design candidat
 Spatial thinking
 ----------
 
-Spatial thinking – ‘the mental processes of representing, analyzing, and drawing inferences from spatial relations’ [Uttal et al. 2013] – is used pervasively in everyday life for tasks such as recognizing things, manipulating things, interacting with others, and way-finding.
+Spatial thinking is how we understand the relations between things in space. It is how we understand where our bodies are, how to move them, where to go. We use it to understand our surroundings - where things are, how big they are, what shape they are.  We use spatial thinking pervasively in everyday life to recognize things, manipulate things, interact with others, and travel.
 
 3D spatial thinking
 ----------
