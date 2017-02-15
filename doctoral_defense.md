@@ -3,25 +3,35 @@ Narrative for doctoral defense
 
 Doctoral defense
 --------
-Hello and welcome to my doctoral defense. I am Brendan, a PhD in Design candidate with a co-major in Forestry and Environmental Resources. As part of the NCSU GeoForAll Lab, here in the Center for Geospatial Analytics, I have been collaboratively designing Tangible Landscape with my colleagues - Anna, Vaclav, Helena, and now Payam. Tangible Landscape is a way to intuitively think about geographic space - to model, analyze, design, and study space.
+Hello and welcome to my doctoral defense. I am Brendan, a PhD in Design candidate with a co-major in Forestry and Environmental Resources. As part of the NCSU GeoForAll Lab, here in the Center for Geospatial Analytics, I have been collaboratively designing Tangible Landscape with my colleagues - Anna, Vaclav, Helena, and now Payam. Tangible Landscape is a way to intuitively think about geographic space - to model, analyze, design, and study landscapes.
 
 Spatial thinking
 ----------
 
-Spatial thinking is how we understand the relations between things in space. It is how we understand where our bodies are, how to move them, where to go. We use it to understand our surroundings - where things are, how big they are, what shape they are.  We use spatial thinking pervasively in everyday life to recognize things, manipulate things, interact with others, and travel.
+Spatial thinking is how we understand the relationship between things in space. It is how we understand where our bodies are, how to move them, where to go. We use it to understand our surroundings - where things are, how big they are, what shape they are.  We use spatial thinking pervasively in everyday life to recognize things, manipulate things, interact with others, and travel.
 
 3D spatial thinking
 ----------
 
-Higher dimensional spatial thinking – thinking about form, volume, and processes unfolding in time – plays an important role in science, technology, engineering, the arts, and math. 3-dimensional (3D) spatial thinking is used in disciplines such as geology to understand the structure of the earth, ecology to understand the structure of ecosystems, civil engineering to shape landscapes, architecture to design buildings, urban planning to model cities, and the arts to shape sculpture.
+Higher dimensional spatial thinking – thinking about form, volume, and processes unfolding in time – plays an important role in disciplines like science, technology, engineering, the arts, and math.
+
+3-dimensional spatial thinking is used in geology to understand the structure of the earth, ecology to understand the structure of ecosystems, civil engineering to shape landscapes, architecture to design buildings, urban planning to model cities, and the arts to shape sculpture.
 
 Spatial computation
 ----------
 
-Many spatial tasks can be performed computationally enabling users to efficiently store, model, and analyze large sets of spatial data and solve complex spatiotemporal problems. In engineering, design, and the arts computer-aided design (CAD) and 3D modeling software are used to interactively, computationally model, analyze, and animate complex 3D forms. In scientific computing multidimensional spatial patterns and processes can be mathematically modeled, simulated, and optimized using geographic information systems (GIS), geospatial programming, and spatial statistics. GIS can be used to quantitatively model, analyze, simulate, and visualize complex spatial and temporal phenomena – computationally enhancing users’ understanding of space. With extensive libraries for point cloud processing, 3D vector modeling, and surface and volumetric modeling and analysis GIS are powerful tools for studying 3D space.
+It can be
+
+Many spatial tasks can be performed computationally enabling users to efficiently store, model, and analyze large sets of spatial data and solve complex spatiotemporal problems.
+
+In engineering, design, and the arts computer-aided design (CAD) and 3D modeling software are used to interactively, computationally model, analyze, and animate complex 3D forms.
+
+In scientific computing multidimensional spatial patterns and processes can be mathematically modeled, simulated, and optimized using geographic information systems (GIS), geospatial programming, and spatial statistics. GIS can be used to quantitatively model, analyze, simulate, and visualize complex spatial and temporal phenomena – computationally enhancing users’ understanding of space. With extensive libraries for point cloud processing, 3D vector modeling, and surface and volumetric modeling and analysis GIS are powerful tools for studying 3D space.
 
 Human-computer interaction
 ----------
+
+Computers can be hard to use.
 
 Unintuitive interactions with GIS can frustrate users, constrain how they think about space, and add new cognitive burdens that require highly developed spatial skills and reasoning to overcome. The paradigmatic modes for interacting with GIS today – command line interfaces (CLI) and graphical user interfaces (GUI) – require physical input into devices like keyboards, mice, digitizing pens, and touch screens, but output data visually as text or graphics. Theoretically this disconnect between intention, action, and feedback makes graphical interaction unintuitive [Dourish 2001; Ishii 2008]. Since users can only think about space visually with GUIs, they need sophisticated spatial abilities like mental rotation [Shepard and Metzler 1971; Just and Carpenter 1985] to parse and understand, much less manipulate 3D space.
 
