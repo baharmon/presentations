@@ -6,6 +6,12 @@
     --meta-description="Slides for doctoral defense presentation" \
     doctoral_defense.html
 
+./build-slides.py --outdir=build \
+    --outfile=lecture-2017.html \
+    --title="Tangible Landscape" \
+    --meta-description="Tangible Landscape lecture slides, Spring 2017" \
+    webinar.html
+
 ## ADD ANOTHER PRESENTATION
 # ./build-slides.py --outdir=build \
 #     --outfile=webinar.html \
@@ -14,4 +20,4 @@
 #     webinar.html
 
 # make this presentation primary for convenience
-cp build/doctoral_defense.html build/index.html
+cp build/lecture-2017 build/index.html
