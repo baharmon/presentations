@@ -20,4 +20,4 @@
 #     webinar.html
 
 # make this presentation primary for convenience
-cp build/lecture-2017 build/index.html
+cp build/lecture-2017.html build/index.html
