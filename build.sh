@@ -10,7 +10,7 @@
     --outfile=lecture-2017.html \
     --title="Tangible Landscape" \
     --meta-description="Tangible Landscape lecture slides, Spring 2017" \
-    webinar.html
+    lecture-2017.html
 
 ## ADD ANOTHER PRESENTATION
 # ./build-slides.py --outdir=build \
