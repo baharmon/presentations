@@ -12,6 +12,12 @@
     --meta-description="Tangible Landscape lecture slides, Spring 2017" \
     lecture-2017.html
 
+    ./build-slides.py --outdir=build \
+        --outfile=westpoint-lecture-2017.html \
+        --title="Augmented Sandboxes" \
+        --meta-description="Westpoint lecture slides, Spring 2017" \
+        lecture-2017.html
+
 ## ADD ANOTHER PRESENTATION
 # ./build-slides.py --outdir=build \
 #     --outfile=webinar.html \
