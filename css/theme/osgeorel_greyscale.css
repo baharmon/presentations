@@ -461,7 +461,7 @@ ol.shadow, ul.shadow {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #bb6a64;
+  color: black; /*#bb6a64*/
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
