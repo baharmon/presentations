@@ -16,7 +16,7 @@
         --outfile=westpoint-lecture-2017.html \
         --title="Augmented Sandboxes" \
         --meta-description="Westpoint lecture slides, Spring 2017" \
-        lecture-2017.html
+        westpoint-lecture-2017.html
 
 ## ADD ANOTHER PRESENTATION
 # ./build-slides.py --outdir=build \
