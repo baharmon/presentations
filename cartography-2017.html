@@ -1,0 +1,975 @@
+<!-- Title slide -->
+<section>
+<h1 style="margin-top: 0.5em; margin-bottom: 0em; color: #000">Cartography and Geospatial Analysis</h1>
+<h5 style="margin-top: 0.5em;color: #888">Brendan Harmon</h5>
+<img height="80px" style="margin-top: 2em" src="img/logos/cgaBlack.png">
+<h5 style="color: #888">North Carolina State University</h5>
+</section>
+
+<!-- Cartography -->
+<section data-background="img/cartography/mississippi_river_plate_crop.jpg">
+<h1 class="shadow">The art and science of cartography</h1>
+</section>
+
+<!-- Map projections-->
+<section>
+<h3><b>XKCD</b> on</h3>
+<h1>map projections</h1>
+<img height="250px" src="img/cartography/xkcd_title.png">
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://xkcd.com/977/">XKCD</a></small></p>
+</section>
+
+<section>
+<h2>Mercator</h2>
+<img height="250px" src="img/cartography/xkcd_mercator.png">
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://xkcd.com/977/">XKCD</a></small></p>
+</section>
+
+<section>
+<h2>Robinson</h2>
+<img height="250px" src="img/cartography/xkcd_robinson.png">
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://xkcd.com/977/">XKCD</a></small></p>
+</section>
+
+<section>
+<h2>Hobo-Dyer</h2>
+<img height="250px" src="img/cartography/xkcd_hobo_dyer.png">
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://xkcd.com/977/">XKCD</a></small></p>
+</section>
+
+<section>
+<h2>Globe</h2>
+<img height="250px" src="img/cartography/xkcd_globe.png">
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://xkcd.com/977/">XKCD</a></small></p>
+</section>
+
+<section>
+<h2>Goode Homolosline</h2>
+<img height="250px" src="img/cartography/xkcd_goode_homolosline.png">
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://xkcd.com/977/">XKCD</a></small></p>
+</section>
+
+<section>
+<h2>Dymaxion</h2>
+<img height="250px" src="img/cartography/xkcd_dymaxion.png">
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://xkcd.com/977/">XKCD</a></small></p>
+</section>
+
+<section>
+<h2>Waterman Butterfly</h2>
+<img height="250px" src="img/cartography/xkcd_waterman_butterfly.png">
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://xkcd.com/977/">XKCD</a></small></p>
+</section>
+
+<!-- Map morphology -->
+<section>
+<h2>Map morphology</h2>
+<p>Time-lapse morphing model with 21 maps of Venice</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BFdkYz21xlQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<p><small>Source: <i class="fa fa-copyright" aria-hidden="true"></i> <a href="http://veniceatlas.epfl.ch/atlas/gis-and-databases/urban/venetian-cartography/">Venice Atlas, EPFL</a></small></p>
+</section>
+
+<!-- Geoid -->
+<section>
+<h2>Ellipsoids &amp; Geoids</h2>
+<img height="250px" src="img/cartography/ellipsoid.png">
+<img height="250px" src="img/cartography/geoid.gif">
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://commons.wikimedia.org/wiki/File:Azimutalprojektion-schief_kl.jpg">Stefan Kühn</a></small></p>
+<p><small>Source: <i class="fa fa-copyright" aria-hidden="true"></i> <a href="http://www.asu.cas.cz/~bezdek/vyzkum/rotating_3d_globe/index.php">Ales Bezdek</a></small></p>
+</section>
+
+<section>
+<h2>Geoid</h2>
+<img height="250px" src="img/cartography/geoid.gif">
+<p><small>Source: <i class="fa fa-copyright" aria-hidden="true"></i> <a href="http://www.asu.cas.cz/~bezdek/vyzkum/rotating_3d_globe/index.php">Ales Bezdek</a></small></p>
+</section>
+
+<!--  -->
+
+
+
+
+
+
+<!-- Analog -->
+<section data-background="img/drawings/trace_3.jpg">
+<h1 class="shadow">Analog design</h1>
+</section>
+
+<!-- Analog: pros and cons -->
+<section>
+<h2>Analog design</h2> <!-- 'Drawing is thinking' -->
+<table style="margin-top: 0.5em">
+<tr><th>Pros</th><th>Cons</th></tr>
+<tr>
+  <td>Intuitive</td>
+  <td>Laborious to reproduce</td>
+</tr>
+<tr>
+  <td>Expressive</td>
+  <td>Imprecise</td>
+</tr>
+<tr>
+  <td>Imaginative</td>
+  <td>No quantitative analysis</td>
+</tr>
+</table>
+</section>
+
+<!-- Digital: CAD -->
+<section data-background="img/courses/yosemite_valley.png">
+<h1 class="shadow">Digital design</h1>
+<h3 class="shadow">Computer Aided Design</h3>
+</section>
+
+<!-- Digital: GIS -->
+<section>
+<h1>Digital design</h1>
+<h3>Geographic Information Systems</h3>
+<p>Tools for geospatial data management and analysis, image processing, graphics and maps production, spatial modeling, &amp; visualization</p>
+<img height="250px" src="img/system/grass_cli_gui.png">
+<small><p>GRASS GIS Command Line Interface (CLI) &amp; Graphical User Interface (GUI)</p></small>
+</section>
+
+<!-- Digital: pros and cons -->
+<section>
+<h2>Digital design</h2>
+<table style="margin-top: 0.5em">
+<tr><th>Pros</th><th>Cons</th></tr>
+<tr>
+  <td>Repeatable</td>
+  <td>Unintuitive</td>
+</tr>
+<tr>
+  <td>Precise</td>
+  <td>Complex software</td>
+</tr>
+<tr>
+  <td>Large datasets</td>
+  <td>Complex workflows</td>
+</tr>
+<tr>
+  <td>Quantitative analysis</td>
+  <td>Learning curve</td>
+</tr>
+</table>
+<p style="margin-top: 1em"><small>
+Carlo Ratti et al. 2004. Tangible User Interfaces (TUIs): A Novel Paradigm for GIS. Trans. GIS 8, 4 (2004), 407–421. DOI:<a href="http://dx.doi.org/10.1111/j.1467-9671.2004.00193.x">http://dx.doi.org/10.1111/j.1467-9671.2004.00193.x</a>
+</small></p>
+</section>
+
+<!-- Natural interaction -->
+<section data-background="img/figure/head_vr_grey_opac_50.png">
+<h2 class="shadow">Natural interaction</h2>
+<ul class="shadow">
+    <li>Virtual Reality (VR)</li>
+    <li>Augumented Reality (AR)</li>
+    <li>Touch User Interfaces</li>
+    <li>Tangible User Interfaces (TUI)</li>
+</ul>
+</section>
+
+<!-- Tangible interaction -->
+<section> <!-- data-background="" -->
+<h2>Tangible interaction</h2>
+<p>Couple physical and digital data</p>
+<ul>
+    <li>Enables embodied cognition</li>
+    <li>Draws on existing motor schemas</li>
+    <li>Seamlessly connects intention, action, and feedback</li>
+    <li>Offloads cognitive tasks onto the body</li>
+</ul>
+<p><small>
+David Kirsh. 2013. Embodied cognition and the magical future of interaction design. ACM Trans. Comput. Interact. 20, 1 (2013), 3:1–3:30. DOI:<a href="http://dx.doi.org/10.1145/2442106.2442109">http://dx.doi.org/10.1145/2442106.2442109</a>
+</small></p>
+</section>
+
+<!-- Tangible interfaces for GIS -->
+<section>
+<h2>Tangible interfaces for geospatial modeling</h2>
+<img class="stretch" src="img/system/tl_concept.png">
+<p>Couple physical and digital geospatial models</p>
+</section>
+
+<!-- History -->
+
+<!-- Urp -->
+<section>
+<h2>Augmented architectural models</h2>
+<img class="stretch" src="img/history/urp.png">
+<p><b>Urp, 1996-2001</b></p>
+<p><small>John Underkoffler and Hiroshi Ishii. 1999. Urp: a luminous-tangible workbench for urban planning and design. In CHI ’99 Proceedings of the SIGCHI conference on Human Factors in Computing Systems. New York, New York, USA: ACM Press, 386–393. DOI:<a href="http://dx.doi.org/10.1145/302979.303114">http://dx.doi.org/10.1145/302979.303114</a></small></p>
+<p><small>Source: <i class="fa fa-copyright" aria-hidden="true"></i> <a href="https://www.media.mit.edu/projects/luminous-roomurp/">Tangible Media Group, MIT Media Lab</a></small></p>
+</section>
+
+<!-- Sandscape and Illuminating Clay -->
+<section>
+<h2>Augmented sandboxes</h2>
+<img height="250px" src="img/history/sandscape.png">
+<img height="250px" src="img/history/illuminating_clay.png">
+<p><b>Sandscape</b> &amp; <b>Illuminating Clay, 2002-2004</b></p>
+<p><small>
+H. Ishii, C. Ratti, B. Piper, Y. Wang, A. Biderman, and E. Ben-Joseph. 2004. Bringing Clay and Sand into Digital Design — Continuous Tangible user Interfaces. BT Technol. J. 22, 4 (2004), 287–299. DOI:<a href="http://dx.doi.org/10.1023/B:BTTJ.0000047607.16164.16">http://dx.doi.org/10.1023/B:BTTJ.0000047607.16164.16</a>
+</small></p>
+<p><small>
+Source: <i class="fa fa-copyright" aria-hidden="true"></i> <a href="http://tangible.media.mit.edu/project/illuminating-clay/">Tangible Media Group, MIT Media Lab</a>
+</small></p>
+</section>
+
+<!-- XenoVision Mark III Dynamic Sand Table -->
+<section>
+<h2>Actuated pin tables</h2>
+<img height="250px" src="img/history/xenovision_2.jpg">
+<img height="250px" src="img/history/xenovision_3.gif">
+<p><b>XenoVision Mark III Dynamic Sand Table, 2004</b></p>
+<p><small>Source: <i class="fa fa-copyright" aria-hidden="true"></i> <a href="http://www.xenotran.com/">Xenotran</a></small></p>
+</section>
+
+<!-- Tangible Geospatial Modeling System -->
+<section>
+<h2>Augmented sandboxes</h2>
+<img height="250px" src="img/history/tangeoms_1.jpg">
+<img height="250px" src="img/history/tangeoms_2.jpg">
+<p><b>Tangible Geospatial Modeling System, 2006-2010</b></p>
+<p><small>Laura Tateosian, Helena Mitasova, Brendan A. Harmon, Brent Fogleman, Katherine Weaver, and Russell S. Harmon. 2010. TanGeoMS: Tangible Geospatial Modeling System. IEEE Trans. Vis. Comput. Graph. 16, 6 (2010), 1605–12. DOI:<a href="http://dx.doi.org/10.1109/TVCG.2010.202">http://dx.doi.org/10.1109/TVCG.2010.202</a>
+</small></p>
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="http://www4.ncsu.edu/~hmitaso/wrriwork/tangis/tangis.html">NCSU GeoForAll Lab</a></small></p>
+</section>
+
+<!-- Collaborative Design Platform -->
+<section>
+<h2>Augmented architectural models</h2>
+<img class="stretch" src="img/history/cdp.jpg">
+<p><b>Collaborative Design Platform, 2011-present</b></p>
+<p><small>Gerhard Schubert, Sebastian Riedel, and Frank Petzold. 2013. Seamfully connected: Real working models as tangible interfaces for architectural design. In Global Design and Local Materialization. Springer-Verlag Berlin Heidelberg, 210–221. DOI:<a href="http://dx.doi.org/10.1007/978-3-642-38974-0_20">http://dx.doi.org/10.1007/978-3-642-38974-0_20</a></small></p>
+<p><small>Source: <i class="fa fa-copyright" aria-hidden="true"></i> <a href="http://cdp.ai.ar.tum.de/">Dr.-Ing. Gerhard Schubert, Technische Universität München</a></small></p>
+</section>
+
+<!-- Augmented Reality Sandbox -->
+<section>
+<h2>Augmented sandboxes</h2>
+<img class="stretch" src="img/history/SARndbox_1.jpg">
+<p><b>Augmented Reality Sandbox, 2012-present</b></p>
+<p><small>Source: <i class="fa fa-copyright" aria-hidden="true"></i> <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/index.html">Oliver Kreylos, UC Davis</a></small></p>
+</section>
+<!-- https://youtu.be/j9JXtTj0mzE -->
+
+<!-- inFORM -->
+<section>
+<h2>Actuated pin tables</h2>
+<img class="stretch" src="img/history/inform.jpg">
+<p><b>inFORM, 2013-present</b></p>
+<p><small>Sean Follmer, Daniel Leithinger, Alex Olwal, Akimitsu Hogge, and Hiroshi Ishii. 2013. inFORM: dynamic physical affordances and constraints through shape and object actuation. In Proceedings of the 26th annual ACM symposium on User interface software and technology - UIST ’13. New York, New York, USA: ACM Press, 417–426. DOI:<a href="http://dx.doi.org/10.1145/2501988.2502032">http://dx.doi.org/10.1145/2501988.2502032</a></small></p>
+<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="http://tangible.media.mit.edu/project/inform/">Tangible Media Group, MIT Media Lab</a></small></p>
+</section>
+
+<!-- The Augmented REality Sandtable (ARES) -->
+<section>
+<h2>Augmented sandboxes</h2>
+<img height="250px" src="img/history/ares_2.png">
+<img height="250px" src="img/history/ares_3.png">
+<p><b>The Augmented REality Sandtable (ARES), 2015-present</b></p>
+<p><small>Charles R. Amburn, Nathan L. Vey, Michael W. Boyce, and MAJ Jerry R. Mize. 2015. The Augmented REality Sandtable ( ARES ). US Army Research Laboratory. ARL-SR-0340. DOI:<a href="http://dx.doi.org/10.13140/RG.2.1.2685.0006">http://dx.doi.org/10.13140/RG.2.1.2685.0006</a>
+</small></p>
+<p><small>Source: <i class="fa fa-copyright" aria-hidden="true"></i> US Army Research Laboratory</small></p>
+</section>
+
+<!-- TL -->
+
+<!-- Tangible Landscape -->
+<section data-background="img/system/tangible_landscape.jpg">
+<h1 class="shadow">Tangible Landscape</h1>
+<h3 class="shadow">A tangible user interface powered by open source GIS</h3>
+<p class="shadow">2013-present</p>
+<img height="150px" src="img/logos/logo_black.png">
+<!--<p><small>Source: <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://tangible-landscape.github.io">NCSU GeoForAll Lab</a></small></p>-->
+</section>
+
+<!-- Real time interaction -->
+<section>
+<h2>Tanigble interaction with GIS</h2>
+<video  data-autoplay class="stretch" style="margin-top: 1em" controls>
+<source src="video/applications/tl_flow.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>With Tangible Landscape you can hold a GIS in your hands - feeling the shape of the earth, sculpting its topography, and directing the flow of water.</p>
+</section>
+
+<!-- How it works -->
+<section>
+<h2>How it works</h2>
+<img class="stretch" src="img/system/system_schema.png">
+<p>Tangible Landscape couples a digital and a physical model through a continuous cycle of 3D scanning, geospatial modeling, and projection</p>
+</section>
+
+<!-- Scanning -->
+<section>
+<h2>Realtime 3D scanning</h2>
+<img class="stretch" src="img/interaction/fusion.jpg">
+<p>with Kinect sensor</p>
+</section>
+
+<!-- Interactions -->
+<section>
+<h2>Interactions</h2>
+<img class="stretch" src="img/interaction/interactions.png">
+<table width="100%">
+        <col width="18%">
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+        <tr>
+            <td style="vertical-align: middle; text-align:center; border-bottom: 0px; padding: 0;">surface
+            <td style="vertical-align: middle; text-align:center; border-bottom: 0px; padding: 0;">points
+            <td style="vertical-align: middle; text-align:center; border-bottom: 0px; padding: 0;">lines
+            <td style="vertical-align: middle; text-align:center; border-bottom: 0px; padding: 0;">areas
+            <td style="vertical-align: middle; text-align:center; border-bottom: 0px; padding: 0;">areas
+        </tr>
+</table>
+</section>
+
+<!-- Features -->
+<section>
+<h2>Features</h2>
+<video data-autoplay class="stretch" controls> <!--style="margin-top: 0.5em"-->
+<source src="video/applications/tl_vr.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>A collaborative environment for tangible freeform modeling, object detection, real-time geospatial analytics, 3D rendering, and virtual reality</p>
+<p><small>Payam Tabrizian, Anna Petrasova, Brendan Harmon, Vaclav Petras, Helena Mitasova, and Ross Meentemeyer. 2016. Immersive Tangible Geospatial Modeling. In Proceedings of the 24th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems. GIS ’16. San Francisco, CA: ACM, 88:1-88:4. DOI:<a href="http://dx.doi.org/10.1145/2996913.2996950">http://dx.doi.org/10.1145/2996913.2996950</a>
+</small></p>
+</section>
+
+<!-- Visibility analysis -->
+<section data-background-image="img/interaction/background_interaction_hands_markers.png">
+<h2>Applications: visibility</h2>
+<video  data-autoplay class="stretch" controls>
+<source src="video/applications/tl_visibility.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>Visibility and line of sight</p>
+</section>
+
+<!-- Solar analysis-->
+<section data-background-image="img/interaction/background_interaction_hands.png">
+<h2>Applications: solar analysis</h2>
+<img width="32%" src="img/applications/solar_1.jpg">
+<img width="32%" src="img/applications/solar_2.jpg">
+<img width="32%" src="img/applications/solar_3.jpg">
+<!--<img width="32%" src="img/applications/solar.gif">-->
+<p>Solar irradiation and cast shadows</p>
+</section>
+
+<!-- Trail Planning -->
+<section data-background-image="img/interaction/background_interaction_hands_markers.png">
+<h2>Applications: trail planning</h2>
+<img width="32%" src="img/applications/trail_1.jpg">
+<img width="32%" src="img/applications/trail_2.jpg">
+<img width="32%" src="img/applications/trail_4.jpg">
+<p>Optimized trail routing between waypoints based on energetics, topography, and cost maps with feedback including trail slopes and viewsheds</p>
+</section>
+
+<!-- Soil moisture -->
+<section data-background-image="img/interaction/background_interaction_hands_markers.png">
+<h2>Applications: 3D soil moisture exploration</h2>
+<img height="190px" src="img/applications/subsurface_1.jpg">
+<img height="190px" src="img/applications/subsurface_2.jpg">
+<img height="190px" src="img/applications/subsurface_3.jpg">
+<!--<img width="80%" src="img/applications/subsurface_cross_section.png">-->
+</section>
+
+<!-- Fire -->
+<section data-background-image="img/interaction/background_interaction_hands.png">
+<h2>Applications: wildfire spread</h2>
+<video data-autoplay class="stretch" controls>
+<source src="video/applications/tl_fire.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>Designing and testing fire breaks</p>
+</section>
+
+<!-- Erosion control
+<section data-background-image="img/interaction/background_interaction_hands.png">
+<h2>Applications: erosion control</h2>
+<p>Sculpting a check dam to retain storm water and reduce erosion
+<img width="32%" src="img/felt/felt_4.jpg">
+<img width="32%" src="img/felt/checkdam_1.jpg">
+<img width="32%" src="img/felt/checkdam_2.jpg">
+</section>
+-->
+
+<!-- Erosion control -->
+<section data-background-image="img/interaction/background_interaction_felt.png">
+<h2>Applications: erosion control</h2>
+<!--<img width="900px" src="img/felt/felt.png">-->
+<img width="23%" src="img/felt/felt_1.jpg">
+<img width="23%" src="img/felt/felt_2.jpg">
+<img width="23%" src="img/felt/felt_3.jpg">
+<img width="23%" src="img/felt/felt_4.jpg">
+<p>Modifying land cover with colored felt
+<!-- Adding grass (light green) and patches of trees (darker green)
+changes the c-factor thus reducing erosion. -->
+</p>
+</section>
+
+<!-- Sudden Oak Death
+<section class="textimg">
+<h2>Applications: Sudden Oak Death management</h2>
+<div>
+<p> Using Tangible Landscape in participatory modeling:
+  <ul style="">
+    <li>participants together explore options
+    to slow down the spread of SOD in Sonoma
+  using tangible user interface</li>
+    <li>stochastic, spatially-explicit model (Meentemeyer et al. 2011) implemented in R (by F. Tonini)</li>
+  </ul>
+</div>
+<img width=40% src="img/baseline_2014.gif">
+</section>
+<section data-background-image="img/interaction/background_interaction_markers.png">
+<h2>Applications: Sudden Oak Death management</h2>
+<iframe data-autoplay width="853" height="480" src="https://www.youtube.com/embed/dnOhOFHAkEU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</section>
+-->
+
+<!-- Futures -->
+<section data-background-image="img/interaction/background_interaction_sand_laser.png">
+<h2>Applications: urban growth</h2>
+<video data-autoplay height="400px" controls>
+<source src="video/applications/tl_futures.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>Simulation of urban growth scenarios with FUTURES model</p>
+</section>
+
+<!-- Coastal flooding -->
+<section data-background-image="img/interaction/background_interaction_hands.png">
+<h2>Applications: coastal flooding</h2>
+<img width="32%" src="img/applications/tl_coastal_1.png">
+<img width="32%" src="img/applications/tl_coastal_2.png">
+<!--<img width="22%" src="img/tl_coastal_3s.png">-->
+<img width="32%" src="img/applications/tl_coastal_4.png">
+<p>Save houses from coastal flooding by building coastal defenses</p>
+<p><small>Structured problem-solving with rules, challenging objectives, and scoring</small></p>
+</section>
+
+<!-- Termite invasion -->
+<section data-background-image="img/interaction/background_interaction_markers.png">
+<h2>Applications: termite infestation</h2>
+<img width="45%" src="img/applications/termite_game_2.jpg">
+<img width="45%" src="img/applications/termite_game_3.jpg">
+<p>Manage the spread of termites across a city by treating city blocks
+using a model of biological invasion in R</p>
+</section>
+
+<!-- Serious gaming
+<section data-background-image="img/applications/coffee_and_viz.jpg">
+<h1 class="shadow">Serious gaming</h1>
+<h3 class="shadow">with Tangible Landscape</h3>
+</section>
+-->
+
+<!-- Experiment -->
+<section data-background-image="img/experiments/difference_1.jpg">
+<h1 class="shadow">User studies</h1>
+<h3 class="shadow">3D spatial performance</h3>
+<h3 class="shadow">in analog, digital, &amp; tangible modeling</h3>
+</section>
+
+<!-- Digital -->
+<section>
+<h2>Digital 3D modeling</h2>
+<video data-autoplay class="stretch" controls>
+<source src="video/experiment/digital modeling.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>with Rhinoceros</p>
+</section>
+
+<!-- Analog -->
+<section>
+<h2>Analog 3D modeling</h2>
+<video data-autoplay class="stretch" controls>
+<source src="video/experiment/analog modeling.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>with polymeric sand</p>
+</section>
+
+<!-- Augmented -->
+<section>
+<h2>Projection augmented 3D modeling</h2>
+<video data-autoplay class="stretch" controls>
+<source src="video/experiment/augmented modeling.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>with Tangible Landscape</p>
+</section>
+
+<!-- Difference -->
+<section>
+<h2>3D modeling with the difference analytic</h2>
+<video data-autoplay class="stretch" controls>
+<source src="video/experiment/difference modeling.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p>with Tangible Landscape</p>
+</section>
+
+<!-- All participants -->
+<section>
+<h2>All participants</h2>
+<table style="margin-top: 0.5em">
+<tr><th></th><th>Reference</th><th>Digital</th><th>Analog</th><th>Augmented</th></tr>
+<tr>
+  <td>Elevation <img width="95%" src="img/legends/elevation_legend_1.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/dem_1.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/mean_dem_1.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/mean_dem_2.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/mean_dem_3.png"></td>
+</tr>
+<tr>
+  <td>Stdev. of differences<img width="95%" src="img/legends/stdev_diff_legend.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/dem_difference_1.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/stdev_regression_difference_series_1.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/stdev_regression_difference_series_2.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/stdev_regression_difference_series_3.png"></td>
+</tr>
+<tr>
+  <td>Landforms<img width="95%" src="img/legends/forms_legend.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/forms_1.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/mean_forms_1.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/mean_forms_2.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/mean_forms_3.png"></td>
+</tr>
+</table>
+</section>
+
+<!-- Difference results-->
+<section>
+<h2>Difference</h2>
+<table style="margin-top: 0.5em">
+<tr><th></th><th>Elevation</th><th>Difference</th><th>Slope</th><th>Landforms</th></tr>
+<tr>
+  <td>Reference</td>
+  <td><img width="95%" src="img/render_3d/participants/dem_4.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/dem_difference_4.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/slope_4.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/forms_4.png"></td>
+</tr>
+<tr>
+  <td>Mean</td>
+  <td><img width="95%" src="img/render_3d/participants/mean_dem_4.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/mean_dem_difference_4.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/mean_slope_4.png"></td>
+  <td><img width="95%" src="img/render_3d/participants/mean_forms_4.png"></td>
+</tr>
+<tr>
+  <td></td>
+  <td><img width="95%" src="img/legends/elevation_legend_4.png"></td>
+  <td><img width="95%" src="img/legends/diff_legend.png"></td>
+  <td><img width="95%" src="img/legends/slope_legend.png"></td>
+  <td><img width="95%" src="img/legends/forms_legend.png"></td>
+</tr>
+</table>
+</section>
+
+<!-- Papers -->
+<section>
+<h2>User studies</h2>
+<p><b>Tangible modeling</b></p>
+<ul>
+  <li>is highly intuitive</li>
+  <li>improves users' 3D spatial performance</li>
+  <li>enables a rapid, iterative process of form-finding and critical analysis</li>
+</ul>
+<p style="margin-top: 1em"><small>Brendan A. Harmon. 2016. <a href="http://dx.doi.org/10.1145/2839462.2854103">Embodied Spatial Thinking in Tangible Computing</a>. In TEI ’16: Proceedings of the Tenth International Conference on Tangible, Embedded, and Embodied Interaction. Eindhoven, Netherlands: ACM Press, 693–696. DOI:<a href="http://dx.doi.org/10.1145/2839462.2854103">http://dx.doi.org/10.1145/2839462.2854103</a></small></p>
+<p><small>Brendan A. Harmon, Anna Petrasova, Vaclav Petras, Helena Mitasova, and Ross K. Meentemeyer. 2016. <a href="http://dx.doi.org/10.5194/isprsarchives-XLI-B2-647-2016">Tangible Landscape: cognitively grasping the flow of water</a>. In The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences. Prague: International Society of Photogrammetry and Remote Sensing. DOI:<a href="http://dx.doi.org/10.5194/isprsarchives-XLI-B2-647-2016">http://dx.doi.org/10.5194/isprsarchives-XLI-B2-647-2016</a></small></p>
+<p><small>Brendan A. Harmon et al. 2017. Cognitively Grasping Topography with Tangible Landscape. In review.<a href=""></a></small></p>
+</section>
+
+<!-- Design implications -->
+<section>
+<h1>Design implications</h1>
+<ul>
+  <li>Rapid conceptual design with scientific analytics</li>
+  <li>Easily engage stakeholders and the public in the design process</li>
+  <li>New ways to teach grading, hydrology, &amp; geomorphology</li>
+</ul>
+</section>
+
+<!-- Future work -->
+<section>
+<h1>Future work</h1>
+</section>
+
+<!-- TL planting -->
+<section>
+<h2>Planting with Tangible Landscape</h2>
+<img class="stretch" src="img/system/system_schema_planting.png">
+<p>Planting tangible 3D trees with realtime rendering</p>
+</section>
+
+<!-- TL + robotic fabrication -->
+<section>
+<h2>Tangible Landscape with robotic fabrication</h2>
+<img class="stretch" src="img/system/system_schema_robot.png">
+<p>In-situ robotic fabrication for Tangible Landscape</p>
+</section>
+
+<!-- TL + robotic fabrication + streaming data + autonomous construction -->
+<section>
+<h2>Tangible Landscape with robotic fabrication, streaming data, and autonomous construction</h2>
+<img  class="stretch" src="img/system/system_schema_land.png">
+<p>Bi-directionally coupling physical and digital landscapes</p>
+</section>
+
+<!-- Courses taught -->
+<section>
+<h1>Courses</h1>
+</section>
+
+<!-- Landscape representation -->
+<section data-background-image="img/courses/final_review_panorama_2.jpg">
+<h1 class="shadow">GIS for Designers</h1>
+</section>
+
+<section>
+<h2>GIS for Designers</h2>
+<!--
+<p>
+Students will learn how to use geographic information systems (GIS) as an integral part of the creative design process, rather than simply as an analytical tool. They will use conceptual models to structure and generate designs, linking creative abstraction, computational exploration, structured decision-making, and expression. As part of an iterative design process students learn workflows linking 3D GIS, 3D modeling, and rapid prototyping -- i.e., 3D printing and CNC machining.
+</p>
+-->
+<ul style="font-size:0.8em">
+<li>Cartography</li>
+<li>Data acquisition</li>
+<li>Terrain modeling</li>
+<li>Hydrological modeling</li>
+<li>Viewshed analysis</li>
+<li>Solar analysis</li>
+<li>Trail routing</li>
+<li>Map algebra</li>
+<li>Map overlay analysis</li>
+</ul>
+</section>
+
+<!-- Digital Design -->
+<section data-background-image="img/courses/rendering.png">
+<h1 class="shadow">Digital Design</h1>
+</section>
+
+<section>
+<h2>Digital Design</h2>
+<!--
+<p>
+In this course students will become fluent in surface and solid modeling and learn how to express themselves in 3D. They will learn how to quickly give form to an idea, sculpt abstract forms, shape complex 3D geometries, rapidly test ideas in an iterative design process, render visualizations, and manufacture prototypes. Students will learn how a) fluently express themselves in 3D, b) model and design across scales, c) understand the relationship between landscape, architectural, and industrial design, d) translate generative concepts and metaphors into form, and e) use rapid prototyping to fabricate conceptual design ideas.
+</p>
+-->
+<ul style="font-size:0.8em">
+<li>Architectural modeling</li>
+<li>Terrain modeling</li>
+<li>Freeform modeling</li>
+<li>Procedural modeling</li>
+<li>3D plants</li>
+<li>Rendering</li>
+</ul>
+</section>
+
+<!-- Courses I'd like to teach -->
+
+<!-- Landscape representation -->
+<section data-background-image="img/courses/san_jacinto.jpg">
+<h1 class="shadow">Landscape Representation</h1>
+</section>
+
+<section>
+<h2>Landscape Representation</h2>
+<!--
+<p>Students will learn how to think through drawing. They will learn how to intuitively express themselves and develop a unique personal style.</p>
+-->
+<ul style="font-size:0.8em">
+<li>Freehand drawing</li>
+<li>Gestural sketching</li>
+<li>Figure drawing</li>
+<li>Plans, sections, and perspectives</li>
+<li>Rapid ideation</li>
+<li>Sketching in nature</li>
+<li>Sketching in the city</li>
+<!--<li>Experiential mapping</li>-->
+<!--<li>Landscape photography</li>-->
+</ul>
+</section>
+
+<!-- Digital fabrication -->
+<section data-background-image="img/digital_fab/cnc_1.jpg">
+<h1 class="shadow">Digital Fabrication</h1>
+</section>
+
+<section>
+<h2>Digital Fabrication</h2>
+<!--
+<p>Through lectures, seminars, workshops, and projects students will learn how digitally fabricate their designs using technologies like 3D printing and CNC machining. They will learn how to build models of real world landscapes and new designs for landscapes, art installations, and elements like furniture.</p>
+-->
+<ul style="font-size:0.8em">
+<li>Rapid ideation and prototyping</li>
+<li>3D modeling</li>
+<li>3D printing</li>
+<li>Laser cutting</li>
+<li>Thermoforming</li>
+<li>CNC machining</li>
+<li>Robotic fabrication</li>
+<li>Autonomous construction</li>
+</ul>
+</section>
+
+<!-- Landscape Ecology -->
+<section data-background-image="img/courses/black_bear.jpg">
+<h1 class="shadow">Landscape Ecology</h1>
+</section>
+
+<section>
+<h2>Landscape Ecology</h2>
+<!--
+<p>An introduction to landscape ecology for designers. Through lectures, seminars, workshops, fieldwork, and charrettes students will learn how to apply ecological theory and methods to landscape planning, architecture, and restoration. We will critically explore contemporary debates about topics like sustainable agriculture, rewilding, and historical baselines for ecological restoration. In design charrettes students will draw on ecological theory as inspiration for designing artful, ecologically functioning landscapes.
+-->
+</p>
+<ul style="font-size:0.8em">
+<li>Ecological theory</li>
+<li>Ecological census techniques</li>
+<li>Field work</li>
+<li>Computational ecology with GIS</li>
+<li>Ecological design</li>
+<li>Ecological restoration charrette</li>
+</ul>
+</section>
+
+<!-- Lidar and UAV analytics -->
+<section data-background-image="img/courses/point_cloud.jpg">
+<h1 class="shadow">Lidar and UAV Analytics</h1>
+</section>
+
+<section>
+<h2>Lidar and Unmanned Aerial Vehicle (UAV) Analytics</h2>
+<ul style="font-size:0.8em">
+<li>Lidar binning</li>
+<li>Lidar interpolation</li>
+<li>UAV photogrammetry</li>
+<li>Structure-from-motion</li>
+<li>Image classification</li>
+</ul>
+</section>
+
+<!-- Studios -->
+<section>
+<h1>Studios</h1>
+</section>
+
+<!-- Algorithmic Landscape Architecture -->
+<section data-background-image="img/spatial/skyview.png">
+<h1 class="shadow">Algorithmic Landscape Architecture</h1>
+</section>
+
+<section>
+<h2>Algorithmic Landscape Architecture</h2>
+<ul style="font-size:0.8em">
+<li>Computionally analyze landscape conditions</li>
+<li>Model social, geomorphological, and ecological processes</li>
+<li>Generatively design ecologically functioning landscapes</li>
+<li>Develop ecologically inspired aesthetics</li>
+<li>Simulate alternative futures</li>
+</ul>
+</section>
+
+<!-- Design | Build -->
+<section data-background-image="img/drawings/trace_2.jpg"> <!--"img/courses/landscape_drawing.jpg"-->
+<h1 class="shadow">Design | Build</h1>
+</section>
+
+<section>
+<h2>Design | Build</h2>
+<ul style="font-size:0.8em">
+<li>Design a beautiful garden</li>
+<li>Design its furniture</li>
+<li>Design a sculpture</li>
+<li>Build it! Plant it!</li>
+</ul>
+</section>
+
+<!-- Workshops I'd like to teach -->
+<section>
+<h1>Workshops</h1>
+</section>
+
+<!-- Fabrication workshops -->
+<section data-background-image="img/courses/half_dome_2.jpg">
+<h1 class="shadow">Fabrication</h1>
+</section>
+
+<section>
+<h2>Fabrication workshops</h2>
+<ul style="font-size:0.8em">
+<li>Woodworking</li>
+<li>Metalworking</li>
+<li>Casting</li>
+</ul>
+</section>
+
+<!-- Web mapping workshops -->
+<section data-background-image="img/courses/webmapping.png">
+<h1 class="shadow">Web Mapping</h1>
+</section>
+
+<section>
+<h2>Web Mapping workshops</h2>
+<ul style="font-size:0.8em">
+<li>Build quick and easy webmaps</li>
+<li>Visualize and style spatial data</li>
+</ul>
+</section>
+
+<!-- Programming workshops -->
+<section data-background-image="img/courses/landscape_evolution_code.png">
+<h1 class="shadow">Programming for Designers</h1>
+</section>
+
+<section>
+<h2>Programming workshops</h2>
+<ul style="font-size:0.8em">
+<li>Scripting with Python</li>
+<li>Visual programming with Grasshopper</li>
+<li>Prototpying with Arduino</li>
+</ul>
+</section>
+
+<!-- VR workshops -->
+<section data-background-image="img/figure/head_vr_grey.png">
+<h1 class="shadow">Virtual Reality</h1>
+</section>
+
+<section>
+<h2>Virtual Reality workshop</h2>
+<p>360 photospheres</p>
+<p>360 videospheres</p>
+<p>3D modeling for VR</p>
+</section>
+
+<!-- Appendix -->
+<section>
+<h1>Appendix</h1>
+</section>
+
+<!-- Publications -->
+
+<!-- Book -->
+<section>
+<h2>Publications</h2>
+<img width="20%" src="img/publications/tl_book_cover.png">
+<p><small>Anna Petrasova, Brendan Harmon, Vaclav Petras, and Helena Mitasova. 2015. <a href="http://dx.doi.org/10.1007/978-3-319-25775-4">Tangible Modeling with Open Source GIS</a>, Springer International Publishing. DOI:<a href="http://dx.doi.org/10.1007/978-3-319-25775-4">http://dx.doi.org/10.1007/978-3-319-25775-4</a>
+</small></p>
+</section>
+
+<!-- Papers -->
+<section>
+<h2>Publications</h2>
+<p><small>Anna Petrasova, Brendan A. Harmon, Vaclav Petras, and Helena Mitasova. 2014. <a href="http://www.iemss.org/sites/iemss2014/papers/iemss2014_submission_131.pdf">GIS-based environmental modeling with tangible interaction and dynamic visualization</a>. In D. P. Ames & N. Quinn, eds. Proceedings of the 7th International Congress on Environmental Modelling and Software. San Diego, California, USA: International Environmental Modelling and Software Society.</small></p>
+<p><small>Brendan A. Harmon. 2016. <a href="http://dx.doi.org/10.1145/2839462.2854103">Embodied Spatial Thinking in Tangible Computing</a>. In TEI ’16: Proceedings of the Tenth International Conference on Tangible, Embedded, and Embodied Interaction. Eindhoven, Netherlands: ACM Press, 693–696. DOI:<a href="http://dx.doi.org/10.1145/2839462.2854103">http://dx.doi.org/10.1145/2839462.2854103</a></small></p>
+<p><small>Brendan A. Harmon, Anna Petrasova, Vaclav Petras, Helena Mitasova, and Ross K. Meentemeyer. 2016. <a href="http://dx.doi.org/10.5194/isprsarchives-XLI-B2-647-2016">Tangible Landscape: cognitively grasping the flow of water</a>. In The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences. Prague: International Society of Photogrammetry and Remote Sensing. DOI:<a href="http://dx.doi.org/10.5194/isprsarchives-XLI-B2-647-2016">http://dx.doi.org/10.5194/isprsarchives-XLI-B2-647-2016</a></small></p>
+<p><small>Payam Tabrizian, Anna Petrasova, Brendan Harmon, Vaclav Petras, Helena Mitasova, and Ross Meentemeyer. 2016. <a href="http://dx.doi.org/10.1145/2996913.2996950">Immersive Tangible Geospatial Modeling</a>. In Proceedings of the 24th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems. GIS ’16. San Francisco, CA: ACM, 88:1--88:4. DOI:<a href="http://dx.doi.org/10.1145/2996913.2996950">http://dx.doi.org/10.1145/2996913.2996950</a></small></p>
+<!--<p><small>Brendan A. Harmon et al. 2017. Cognitively Grasping Topography with Tangible Landscape. ACM Trans. Comput. Interact. (In review).<a href=""></a></small></p>-->
+</section>
+
+<!-- Setup -->
+<section>
+<h2>Setup</h2>
+<img class="stretch" src="img/system/system_setup.png">
+</section>
+
+<!-- Equipment -->
+<section>
+<h2>Hardware</h2>
+<table>
+<tr><th>Type</th><th>Product</th><th>Cost</th></tr>
+<tr><td>Computer</td><td>System 76 Oryx Pro</td><td>$1500</td></tr>
+<tr><td>Projector</td><td>Optoma ML750 WXGA 700 DLP LED</td><td>$500</td></tr>
+<tr><td>3D sensor</td><td>Xbox One Kinect</td><td>$100</td></tr>
+<tr><td></td><td>Kinect Adapter for Windows</td><td>$50</td></tr>
+<tr><td>Stand</td><td>Avenger 40-Inch C-Stand with Grip Kit</td><td>$200</td></tr>
+<tr><td></td><td>Avenger F800 3-Inch Baby Wall Plate</td><td>$10</td></tr>
+<tr><td></td><td>Kupo 4 Way Clamp</td><td>$50</td></tr>
+<tr><td></td><td>Kupo Baby 5/8-Inch (16mm) Receiver for 3 & 4 Way Clamp</td><td>$12</td></tr>
+<tr><td></td><td>Avenger F810 3-Inch Baby Wall Plate with Swivel Pin</td><td>$36</td></tr>
+<tr><td></td><td>Avenger D520L 40-Inch Extension Arm</td><td>$45</td></tr>
+<tr><td>Peripherals</td><td>HDMI cable</td><td>$10</td></tr>
+<tr><td></td><td>Extension cord</td><td>$10</td></tr>
+<tr><td>Modeling media</td><td>Waba Fun Kinetic Sand 11 Lbs</td><td>$50</td></tr>
+<tr><td></td><td></td><td><b>~$2600</b></td></tr>
+</table>
+</section>
+
+<!-- Software -->
+<section>
+<h2>Software</h2>
+<img class="stretch" src="img/system/software-schema.png">
+</section>
+
+<!-- Interfaces -->
+<section>
+<h3>Interfaces</h3>
+<img class="stretch" src="img/system/TUI_GUI_CLI_horizontal.jpg">
+<p style="text-align:left">
+<span style="margin-left:120px;margin-right:230px">TUI</span>
+<span style="margin-right:300px">GUI</span>
+<span style="margin-left:50px">API</span>
+</p>
+</section>
+
+<!-- Accuracy -->
+<section>
+<h3>Accuracy</h3>
+<img height="250px" src="img/precision/accuracy.png">
+<p>Model size: 135 mm x 135 mm</p>
+<table>
+<tr><th>Min</th><th>Max</th><th>Mean</th><th>Stdev</th><th>1st Q</th><th>3rd Q</th></tr>
+<tr><td>-2.8</td><td>3.7</td><td>-0.02</td><td>0.7</td><td>-0.4</td><td>0.3</td></tr>
+<caption>Scanning accuracy (mm)</caption>
+</table>
+<!--
+<p>Scanning resolution: 2 mm</p>
+<p>Mean vertical difference: -0.02 mm</p>
+<p>Min vertical difference: -2.8 mm</p>
+<p>Max vertical difference: 3.7 mm</p>
+-->
+</section>
+
+<!-- Speed -->
+<section>
+<h2>Speed</h2>
+<table>
+<tr><th>Parameters</th><th>Small</th><th>Medium</th></tr>
+<tr><td>Physical size</td><td>23.5 cm x 23.5 cm</td><td>34 cm x 34 cm</td></tr>
+<tr><td>Cells</td><td>13,456</td><td>26,235</td></tr>
+<tr><td>Binning</td><td>0.51 s</td><td>0.71 s</td></tr>
+<tr><td>Interpolation</td><td>0.74 s</td><td>0.97 s</td></tr>
+<tr><td>Water flow</td><td>0.29 &plusmn; 0.01 s</td><td>1.05	&plusmn; 0.05 s</td></tr>
+<tr><td>Contours</td><td>10.054 &plusmn; 0.004 s</td><td>0.061 &plusmn; 0.004 s</td></tr>
+<tr><td>Difference</td><td>0.036 &plusmn; 0.002 s</td><td>0.042 &plusmn; 0.003 s</td></tr>
+<tr><td>Landforms</td><td>0.034 &plusmn; 0.003 s</td><td>0.084 &plusmn; 0.009 s</td></tr>
+</table>
+</section>
+
+<!-- 3D printing -->
+<section>
+<h2>3D printing</h2>
+<img width="30%" src="img/digital_fab/3d_print_1.jpg">
+<img width="30%" src="img/digital_fab/3d_print_2.jpg">
+<img width="30%" src="img/digital_fab/3d_print_3.jpg">
+</section>
+
+<!-- CNC -->
+<section>
+<h2>CNC routing</h2>
+<img height="250px" src="img/digital_fab/cnc_router.jpg">
+<img height="250px" src="img/digital_fab/cnc_mdf.jpg">
+</section>

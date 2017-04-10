@@ -16,7 +16,7 @@ def error_message(*objs):
 
 def main():
     directories = ['css', 'js', 'lib', 'plugin']
-    
+
     parser = argparse.ArgumentParser(
         description='Copies the common files for all presentations to one directory')
     parser.add_argument('--src-dir', dest='common_srcdir', action='store',

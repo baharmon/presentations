@@ -12,11 +12,17 @@
     --meta-description="Tangible Landscape lecture slides, Spring 2017" \
     lecture-2017.html
 
-    ./build-slides.py --outdir=build \
-        --outfile=westpoint-lecture-2017.html \
-        --title="Augmented Sandboxes" \
-        --meta-description="Westpoint lecture slides, Spring 2017" \
-        westpoint-lecture-2017.html
+./build-slides.py --outdir=build \
+    --outfile=westpoint-lecture-2017.html \
+    --title="Augmented Sandboxes" \
+    --meta-description="Westpoint lecture slides, Spring 2017" \
+    westpoint-lecture-2017.html
+
+./build-slides.py --outdir=build \
+    --outfile=cartography-2017.html \
+    --title="Cartography and GIS" \
+    --meta-description="Cartography and GIS lecture, Spring 2017" \
+    cartography-2017.html
 
 ## ADD ANOTHER PRESENTATION
 # ./build-slides.py --outdir=build \
