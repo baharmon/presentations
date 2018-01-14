@@ -24,6 +24,12 @@
     --meta-description="Cartography and GIS lecture, Spring 2017" \
     cartography-2017.html
 
+./build-slides.py --outdir=build \
+    --outfile=generative-landscape-architecture.html \
+    --title="Generative landscape architecture" \
+    --meta-description="Lecture on generative landscape architecture" \
+    generative-landscape-architecture.html
+
 ## ADD ANOTHER PRESENTATION
 # ./build-slides.py --outdir=build \
 #     --outfile=webinar.html \
