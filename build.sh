@@ -30,6 +30,12 @@
     --meta-description="Lecture on generative landscape architecture" \
     generative-landscape-architecture.html
 
+./build-slides.py --outdir=build \
+    --outfile=computational-ecology.html \
+    --title="Computational Ecology" \
+    --meta-description="Computational Ecology 2018" \
+  computational-ecology.html
+
 ## ADD ANOTHER PRESENTATION
 # ./build-slides.py --outdir=build \
 #     --outfile=webinar.html \
