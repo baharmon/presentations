@@ -33,8 +33,14 @@
 ./build-slides.py --outdir=build \
     --outfile=computational-ecology.html \
     --title="Computational Ecology" \
-    --meta-description="Computational Ecology 2018" \
+    --meta-description="Computational Ecology" \
   computational-ecology.html
+
+  ./build-slides.py --outdir=build \
+      --outfile=kinetic-art.html \
+      --title="Kinetic Art" \
+      --meta-description="Lecture on Kinetic Art" \
+    kinetic-art.html
 
 ## ADD ANOTHER PRESENTATION
 # ./build-slides.py --outdir=build \
