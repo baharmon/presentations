@@ -36,11 +36,11 @@
     --meta-description="Computational Ecology" \
   computational-ecology.html
 
-  ./build-slides.py --outdir=build \
-      --outfile=kinetic-art.html \
-      --title="Kinetic Art" \
-      --meta-description="Lecture on Kinetic Art" \
-    kinetic-art.html
+./build-slides.py --outdir=build \
+    --outfile=kinetic-art.html \
+    --title="Kinetic Art" \
+    --meta-description="Lecture on Kinetic Art" \
+  kinetic-art.html
 
 ## ADD ANOTHER PRESENTATION
 # ./build-slides.py --outdir=build \
@@ -50,4 +50,4 @@
 #     webinar.html
 
 # make this presentation primary for convenience
-cp build/lecture-2017.html build/index.html
+cp build/generative-landscape-architecture.html build/index.html
