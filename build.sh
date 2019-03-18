@@ -1,22 +1,16 @@
 ./copy-common-files.py --dst-dir=build
 
 ./build-slides.py --outdir=build \
-    --outfile=doctoral_defense.html \
+    --outfile=doctoral-defense.html \
     --title="Tangible Landscape" \
     --meta-description="Slides for doctoral defense presentation" \
-    doctoral_defense.html
+    doctoral-defense.html
 
 ./build-slides.py --outdir=build \
     --outfile=lecture-2017.html \
     --title="Tangible Landscape" \
     --meta-description="Tangible Landscape lecture slides, Spring 2017" \
     lecture-2017.html
-
-./build-slides.py --outdir=build \
-    --outfile=westpoint-lecture-2017.html \
-    --title="Augmented Sandboxes" \
-    --meta-description="Westpoint lecture slides, Spring 2017" \
-    westpoint-lecture-2017.html
 
 ./build-slides.py --outdir=build \
     --outfile=cartography-2017.html \
@@ -41,6 +35,12 @@
     --title="Kinetic Art" \
     --meta-description="Lecture on Kinetic Art" \
   kinetic-art.html
+
+  ./build-slides.py --outdir=build \
+      --outfile=robots-in-nature.html \
+      --title="Robots in Nature" \
+      --meta-description="Robots in Nature" \
+    robots-in-nature.html
 
 ## ADD ANOTHER PRESENTATION
 # ./build-slides.py --outdir=build \

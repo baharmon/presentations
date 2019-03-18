@@ -1,11 +1,11 @@
 A collection of presentations and talks
 ===========================================
+ * https://baharmon.github.io/presentations/robots-in-nature.html
  * https://baharmon.github.io/presentations/kinetic-art.html
  * https://baharmon.github.io/presentations/generative-landscape-architecture.html
  * https://baharmon.github.io/presentations/lecture-2017.html
- * https://baharmon.github.io/presentations/westpoint-lecture-2017.html
  * https://baharmon.github.io/presentations/cartography-2017.html
- * https://baharmon.github.io/presentations/doctoral_defense.html
+ * https://baharmon.github.io/presentations/doctoral-defense.html
 
 Building and publishing pages for this repository
 -------------------------------------------------
