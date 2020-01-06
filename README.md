@@ -1,10 +1,11 @@
 A collection of presentations and talks
 ===========================================
+ * https://baharmon.github.io/presentations/generative-landscape-architecture.html
+  * https://baharmon.github.io/presentations/robotics-in-design.html
  * https://baharmon.github.io/presentations/robots-in-nature.html
  * https://baharmon.github.io/presentations/kinetic-art.html
  * https://baharmon.github.io/presentations/tangible-landscape-2017.html
  * https://baharmon.github.io/presentations/tangible-landscape-2019.html
- * https://baharmon.github.io/presentations/generative-landscape-architecture.html
 
 Building and publishing pages for this repository
 -------------------------------------------------

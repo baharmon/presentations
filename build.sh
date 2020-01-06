@@ -19,6 +19,12 @@
     generative-landscape-architecture.html
 
 ./build-slides.py --outdir=build \
+    --outfile=robotics-in-design.html \
+    --title="Robotics in Art and Design" \
+    --meta-description="Lecture on Robotics in Art and Design" \
+    robotics-in-design.html
+
+./build-slides.py --outdir=build \
     --outfile=kinetic-art.html \
     --title="Kinetic Art" \
     --meta-description="Lecture on Kinetic Art" \
